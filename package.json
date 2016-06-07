@@ -9,16 +9,17 @@
   "author": "Mahmut Duva",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.9.0",
-    "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.5.0",
-    "react": "^0.14.8",
-    "react-dom": "^15.1.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
     "gulp": "^3.9.1",
-    "webpack": "^1.13.1"
+    "gulp-open": "^2.0.0",
+    "gulp-webserver": "^0.9.1",
+    "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "classnames": "^2.2.5"
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
   }
 }
